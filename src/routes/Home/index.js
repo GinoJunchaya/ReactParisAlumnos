@@ -7,7 +7,7 @@ class Home extends Component{
     render(){
         return(
             <section>
-                <Header/>
+                <Header history={this.props.history}/>
                 <Body/>
                 <Footer/>                                
             </section>

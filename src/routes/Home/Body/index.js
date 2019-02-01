@@ -10,13 +10,13 @@ class Body extends Component {
             <section style={{marginTop: "100px"}}>
                 <Carousel>
                     <Carousel.Item>
-                        <img src={carouselOne}/>
+                        <img className="d-block w-100" src={carouselOne}/>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={carouselTwo}/>
+                        <img className="d-block w-100" src={carouselTwo}/>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={carouselThree}/>
+                        <img className="d-block w-100" src={carouselThree}/>
                     </Carousel.Item>                                        
                 </Carousel>
             </section>

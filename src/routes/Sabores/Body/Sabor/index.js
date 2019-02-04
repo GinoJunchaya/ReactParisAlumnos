@@ -5,7 +5,7 @@ import "./sabor.css";
 class Sabor extends Component {
     render() {
         return (
-            <section className="col-md-2">           
+            <section className="col-md-3">           
                 <Card className="card-sabor">
                     <Card.Img variant="top" src={this.props.imagen} />
                     <Card.Footer className="card-footer">
